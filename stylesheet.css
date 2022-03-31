@@ -1,0 +1,105 @@
+
+
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: white;
+	padding: 25px;
+	border-radius: 37px;
+}
+
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: right;
+    font-size: 36px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.calculator-keys {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 80px;
+    background-color: white;
+    border: 5px solid white;
+    font-size: 32px;
+    color: rgb(211, 202, 197);
+    width: 25%;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 7px;
+    box-shadow: 0 0 13px whitesmoke;
+}
+
+
+.all-clear {
+    width: 50%;
+    color: black;
+} 
+.operator:hover, .all-clear:hover {
+    background-color: rgb(185, 58, 58);
+}
+
+.decimal {
+    color: black;
+}
+
+.operator:hover, .decimal:hover {
+    background-color: papayawhip;
+}
+
+.percentage {
+    color: black;
+}
+
+.operator:hover, .percentage:hover {
+    background-color: papayawhip;
+}
+
+.zero-btn {
+    width: 25%;
+}
+
+.operator, .equal-sign {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover {
+    background-color: papayawhip;
+}
